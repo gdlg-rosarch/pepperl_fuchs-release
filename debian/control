@@ -1,0 +1,12 @@
+Source: ros-kinetic-pepperl-fuchs-r2000
+Section: misc
+Priority: extra
+Maintainer: Denis Dillenberger <denis.dillenberger@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-roscpp, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs
+Homepage: http://wiki.ros.org/pepperl_fuchs_r2000
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-pepperl-fuchs-r2000
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-roscpp, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs
+Description: The Pepperl+Fuchs R2000 laser range finder driver package
